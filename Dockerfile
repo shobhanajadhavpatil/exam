@@ -1,2 +1,3 @@
 FROM nginx:latest
-COPY index.html /var/share/nginx/html
+COPY index.html /var/share/nginx/html/
+EXPOSE 80
